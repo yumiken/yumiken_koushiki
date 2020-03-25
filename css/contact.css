@@ -1,0 +1,40 @@
+.form-wrapper{
+    text-align: center;
+}
+
+.form-wrapper .inpt{
+    margin:1rem;
+    border:none;
+    border-bottom:#a4a4a4 2px solid;
+}
+
+.form-wrapper .txtarea{
+    margin:1rem;
+    border:#a4a4a4 2px solid;
+    border-radius:5px;
+}
+
+#submit-btn{
+    background-color: #8258FA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin:2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition:0.7s;
+}
+
+#submit-btn:hover{
+    background-color:rgb(177, 148, 255);
+    transition:0.5s;
+    cursor: pointer;
+}
+
+input[type="text"],
+textarea
+{
+    font-size:13px;
+}

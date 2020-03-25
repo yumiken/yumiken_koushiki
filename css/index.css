@@ -1,0 +1,170 @@
+#top-image{
+    margin:auto;
+}
+
+#landing{
+    height:100vh;
+    text-align: center;
+    position: relative;
+}
+
+#top-image{
+    width:100%;
+    margin:auto;
+    overflow:auto;
+    display:none;
+}
+
+#top-image-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.thanks{
+    width:100vw;
+    overflow: hidden;
+}
+.motto-wrapper {
+    text-align: left;
+}
+/* 
+.motto-wrapper i{
+
+}
+.motto-wrapper strong{
+
+}
+.motto-wrapper p{
+
+} */
+
+/* #yearone-wrapper {
+    background: #8258FA;
+    color:#ffffff;
+} */
+
+
+
+.lower{
+    background:rgb(245, 245, 245);
+    padding-bottom: 5%;
+}
+
+.info {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.info-block{
+    width:45%;
+    background: #ffffff;
+}
+
+.info-block img{
+    width:100%;
+}
+
+.info-block p{
+    padding:0.5rem;
+}
+
+
+/* ノートパソコン用 */
+@media(min-width:1125px){
+    #top-image{
+        padding-top:1rem;
+        height:80vh;
+    }
+
+    .thanks{
+        width:70vw;
+    }
+
+    .motto-wrapper{
+        text-align: center;
+        display:flex;
+        justify-content:center;
+    }
+
+    .motto-wrapper .cellbn{
+        width:28rem;
+    }
+
+    .info {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    
+    .info-block{
+        margin:3rem;
+        width:25%;
+        background: #ffffff;
+    }
+    
+
+
+
+}
+/* 
+.container {
+    max-width: 1100px;
+    margin:auto;
+    overflow:auto;
+    padding:0 2rem;
+}
+
+.main-header{
+    height:55vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:2rem;
+}
+
+.main-header h1{
+    font-size: 4rem;
+    margin-bottom:2rem;
+    line-height:1.2;
+}
+
+.main-header h1 span{
+    color: #b50d10
+}
+
+.main-header p {
+    font-size: 2rem;
+}
+
+img{
+    width:100%;
+}
+
+.card{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    margin-bottom: 2rem;
+}
+
+.card img{
+    height:400px;
+}
+
+.card > div {
+    padding:2rem;
+}
+
+.card:nth-child(even) img{
+    order: 2;
+} */
