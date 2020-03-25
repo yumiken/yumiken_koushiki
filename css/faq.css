@@ -1,0 +1,79 @@
+main{
+    text-align: center;
+}
+
+menu #pc-nav a:hover{
+  text-decoration: none;
+
+}
+/*----------------------FAQ----------------------*/
+#accordion {
+    margin:auto;
+    width:80vw;
+  }
+  .card {
+    text-align: left;
+    color: black;
+    font-size:1rem;
+  }
+  .card-header {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .card-header:hover {
+    background-color: #6f6f6f;
+    transition: 0.5s;
+  }
+  .card-link:hover {
+    color: white;
+  }
+  .card-link {
+    color: white;
+    padding: 0px;
+  }
+  .card-body {
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+  }
+  .button:hover {
+    background-color: #6f6f6f;
+  }
+  
+  .link:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .button-container {
+    text-align: center;
+  }
+  .ask-button {
+    margin: 1rem;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 10rem;
+    transition:0.5s;
+  }
+  
+
+@media (min-width:480px) {
+  .ask-button {
+    margin: 1rem;
+    padding: 20px;
+    border-radius: 15px;
+    width: 10rem;
+    font-size: 1rem;
+  }
+
+  .ask-button:hover{
+    background-color:#6f6f6f;
+    transition:0.5s;
+  }
+
+}
